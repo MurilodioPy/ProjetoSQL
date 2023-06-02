@@ -105,11 +105,11 @@ CREATE TABLE PRECOS (
 /* ADICIONANDO OS DADOS                                         */
 /*==============================================================*/
 REM INSERTING into CLIENTES
-INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (7, 'Antônio Silva', 'Rua das Flores, 123', '(11) 9999-1234', 'São Paulo');
+INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (7, 'AntÃ´nio Silva', 'Rua das Flores, 123', '(11) 9999-1234', 'SÃ£o Paulo');
 INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (3, 'Maria Santos', 'Av. das Palmeiras, 456', '(21) 9876-5678', 'Rio de Janeiro');
-INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (6, 'João Oliveira', 'Travessa das Pedras, 789', '(51) 5555-7890', 'Porto Alegre');
-INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (4, 'Ana Souza', 'R. dos Ipês, 234', '(62) 1234-5678', 'Goiânia');
-INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (5, 'Pedro Fernandes', 'Av. dos Girassóis, 567', '(85) 9876-5432', 'Fort');
+INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (6, 'JoÃ£o Oliveira', 'Travessa das Pedras, 789', '(51) 5555-7890', 'Porto Alegre');
+INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (4, 'Ana Souza', 'R. dos IpÃªs, 234', '(62) 1234-5678', 'GoiÃ¢nia');
+INSERT INTO CLIENTES (CLIENTE, NOME, ENDERECO, FONE, CIDADE) VALUES (5, 'Pedro Fernandes', 'Av. dos GirassÃ³is, 567', '(85) 9876-5432', 'Fort');
 insert into CLIENTES (cliente, nome, endereco, fone, cidade) values (2, 'Nanon', '9th Floor', '404-507-3622', 'Pingshui');
 insert into CLIENTES (cliente, nome, endereco, fone, cidade) values (9, 'Iain', 'Suite 38', '532-230-4195', 'Rejoyoso');
 insert into CLIENTES (cliente, nome, endereco, fone, cidade) values (1, 'Linnet', 'Suite 78', '595-803-6808', 'Kuala Tuha');
@@ -119,9 +119,9 @@ insert into CLIENTES (cliente, nome, endereco, fone, cidade) values (10, 'Dorote
 REM INSERTING into ATORES
 INSERT INTO ATORES (ATOR, NOME) VALUES (1, 'Pedro Silva');
 INSERT INTO ATORES (ATOR, NOME) VALUES (2, 'Mara Souza');
-INSERT INTO ATORES (ATOR, NOME) VALUES (3, 'Antônio Rodrigues');
+INSERT INTO ATORES (ATOR, NOME) VALUES (3, 'AntÃ´nio Rodrigues');
 INSERT INTO ATORES (ATOR, NOME) VALUES (4, 'Maria Fernandes');
-INSERT INTO ATORES (ATOR, NOME) VALUES (5, 'João Oliveira');
+INSERT INTO ATORES (ATOR, NOME) VALUES (5, 'JoÃ£o Oliveira');
 insert into ATORES (ator, nome) values (6, 'Fiann Dryburgh');
 insert into ATORES (ator, nome) values (7, 'Hyman Coffin');
 insert into ATORES (ator, nome) values (8, 'Andria Macon');
@@ -145,10 +145,10 @@ INSERT INTO FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) VALUES
 INSERT INTO FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) VALUES (2, 'Noite de Terror', 2, 10, '05/06/2022', 24);
 INSERT INTO FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) VALUES (3, 'O Tesouro Perdido', 3, 9, '20/03/2022', 72);
 INSERT INTO FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) VALUES (4, 'Amor em Paris', 4, 2, '10/08/2022', 48);
-INSERT INTO FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) VALUES (5, 'Desbravadores do Espaço', 5, 4, '30/09/2022', 72);
+INSERT INTO FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) VALUES (5, 'Desbravadores do EspaÃ§o', 5, 4, '30/09/2022', 72);
 insert into FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) values (6, 'Late Autumn (Man-choo)', 6, 3, '7/3/2023', 21);
 insert into FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) values (7, 'City Zero', 7, 6, '21/4/2022', 8);
-insert into FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) values (8, 'Crows Zero (Kurôzu zero)', 8, 7, '1/1/2023', 8);
+insert into FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) values (8, 'Crows Zero (KurÃ´zu zero)', 8, 7, '1/1/2023', 8);
 insert into FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) values (9, 'Venus Wars (Venus Senki)', 9, 4, '22/10/2022', 11);
 insert into FILMES (FILME, NOME, GENERO, PRECO, DT_COMPRA, HRS_DEVOLUCAO) values (10, 'American Gothic', 10, 1, '1/1/2023', 14);
 
@@ -177,10 +177,10 @@ insert into PRECOS (PRECO, CATEGORIA, VALOR) values (9, 9, 9.89);
 insert into PRECOS (PRECO, CATEGORIA, VALOR) values (10, 5, 32.39);
 
 REM INSERTING into GENEROS
-INSERT INTO GENEROS (GENERO, DESCRICAO) VALUES (1, 'Ação');
-INSERT INTO GENEROS (GENERO, DESCRICAO) VALUES (2, 'Comédia');
+INSERT INTO GENEROS (GENERO, DESCRICAO) VALUES (1, 'AÃ§Ã£o');
+INSERT INTO GENEROS (GENERO, DESCRICAO) VALUES (2, 'ComÃ©dia');
 INSERT INTO GENEROS (GENERO, DESCRICAO) VALUES (3, 'Drama');
-INSERT INTO GENEROS (GENERO, DESCRICAO) VALUES (4, 'Ficção Científica');
+INSERT INTO GENEROS (GENERO, DESCRICAO) VALUES (4, 'FicÃ§Ã£o CientÃ­fica');
 INSERT INTO GENEROS (GENERO, DESCRICAO) VALUES (5, 'Romance');
 insert into GENEROS (GENERO, DESCRICAO) values (6, 'Drama');
 insert into GENEROS (GENERO, DESCRICAO) values (7, 'Sci-Fi');
@@ -213,7 +213,7 @@ insert into LOCACOES (LOCACAO, DT_LOCACAO, CLIENTE, DT_DEVOLUCAO) values (9, '30
 insert into LOCACOES (LOCACAO, DT_LOCACAO, CLIENTE, DT_DEVOLUCAO) values (10, '14/3/2021', 3, '3/12/2023');
 
 /*==============================================================*/
-/* ALTERANDO AS TABELAS ADICIONANDO AS RESTRIÇÕES              */
+/* ALTERANDO AS TABELAS ADICIONANDO AS RESTRIÃ‡Ã•ES              */
 /*==============================================================*/
 ALTER TABLE PRECOS
 ADD CONSTRAINT FK_CATEGORIA_PRECOS  FOREIGN KEY (CATEGORIA)
@@ -278,21 +278,21 @@ drop constraint FK_ATOR_FILMES_ATOR;
 /* CONSULTAS                                                    */
 /*==============================================================*/
 /*  */
-/* 2. Criar uma restrição para o atributo VALOR da tabela PRECOS (mínimo = 2,50). */
+/* 2. Criar uma restriÃ§Ã£o para o atributo VALOR da tabela PRECOS (mÃ­nimo = 2,50). */
 ALTER TABLE PRECOS
 ADD CONSTRAINT MIN_VALOR CHECK (PRECO >= 2.50);
 
-/* 3. Criar uma restrição para o atributo DT_COMPRA da tabela FILMES (mínimo = 10 de janeiro de 2020).*/
+/* 3. Criar uma restriÃ§Ã£o para o atributo DT_COMPRA da tabela FILMES (mÃ­nimo = 10 de janeiro de 2020).*/
 ALTER TABLE FILMES
 ADD CONSTRAINT MIN_DT_COMPRA
 CHECK (DT_COMPRA >= TO_DATE ('2020-01-10', 'YYYY/MM/DD'));
 
-/* 4. Criar uma restrição para o atributo DT_LOCACAO da tabela LOCACOES (mínimo = 1º de março de 2020). */
+/* 4. Criar uma restriÃ§Ã£o para o atributo DT_LOCACAO da tabela LOCACOES (mÃ­nimo = 1Âº de marÃ§o de 2020). */
 ALTER TABLE LOCACOES
 ADD CONSTRAINT MIN_DT_LOCACAO
 CHECK (DT_LOCACAO >= TO_DATE ('2020-03-01', 'YYYY/MM/DD'));
 
-/* 5. Remover todas as restrições criadas acima */
+/* 5. Remover todas as restriÃ§Ãµes criadas acima */
 ALTER TABLE PRECOS 
 DROP CONSTRAINT MIN_VALOR;
 
@@ -302,39 +302,39 @@ DROP CONSTRAINT MIN_DT_COMPRA;
 ALTER TABLE LOCACOES 
 DROP CONSTRAINT MIN_DT_LOCACAO;
 
-/* 6. Selecionar código e nome dos filmes cuja descrição do gênero seja “Ação” */
+/* 6. Selecionar cÃ³digo e nome dos filmes cuja descriÃ§Ã£o do gÃªnero seja Â“AÃ§Ã£oÂ” */
 SELECT F.FILME, F.NOME
 FROM FILMES F
 JOIN GENEROS G ON F.GENERO = G.GENERO
-WHERE G.DESCRICAO = 'Ação';
+WHERE G.DESCRICAO = 'AÃ§Ã£o';
 
-/* 7. Selecionar codigo e nome dos filmes em que trabalham os atores “pedro silva” e “mara souza” e que sejam do
-gênero “documentário” */
+/* 7. Selecionar codigo e nome dos filmes em que trabalham os atores Â“pedro silvaÂ” e Â“mara souzaÂ” e que sejam do
+gÃªnero Â“documentÃ¡rioÂ” */
 SELECT F.FILME, F.NOME
 FROM FILMES F
 JOIN FILMES_ATOR FA ON F.FILME = FA.FILME
 JOIN ATORES A ON FA.ATOR = A.ATOR
 JOIN GENEROS G ON F.GENERO = G.GENERO
-WHERE A.NOME IN ('Pedro Silva', 'Mara Souza') AND G.DESCRICAO = 'documentário';
+WHERE A.NOME IN ('Pedro Silva', 'Mara Souza') AND G.DESCRICAO = 'documentÃ¡rio';
 
-/* 8. Selecionar todos os dados dos clientes cujo nome inicie com “ant” e cuja cidade seja igual a “maresias” */
+/* 8. Selecionar todos os dados dos clientes cujo nome inicie com Â“antÂ” e cuja cidade seja igual a Â“maresiasÂ” */
 SELECT *
 FROM CLIENTES
 WHERE NOME LIKE 'Ant%' AND CIDADE = 'maresias';
 
-/* 9. Selecionar código e nome dos filmes cuja devolução seja “24 hs” e que sejam do gênero “policial */
+/* 9. Selecionar cÃ³digo e nome dos filmes cuja devoluÃ§Ã£o seja Â“24 hsÂ” e que sejam do gÃªnero Â“policial */
 SELECT F.FILME, F.NOME
 FROM FILMES F
 JOIN GENEROS G ON F.GENERO = G.GENERO
 WHERE lower(G.DESCRICAO) = 'policial' AND F.HRS_DEVOLUCAO >= 24;
 
-/* 10. Selecionar codigo e nome dos filmes, codigo e categoria de preços, cujos preços sejam > 3,50 */
+/* 10. Selecionar codigo e nome dos filmes, codigo e categoria de preÃ§os, cujos preÃ§os sejam > 3,50 */
 SELECT F.FILME, F.NOME, P.PRECO, P.CATEGORIA
 FROM FILMES F
 JOIN PRECOS P ON F.PRECO = P.PRECO
 WHERE P.VALOR > 3.50;
 
-/* 11. Selecionar codigo e nome dos filmes, codigo e nome dos atores, dos filmes cujo preço < 2,00 */
+/* 11. Selecionar codigo e nome dos filmes, codigo e nome dos atores, dos filmes cujo preÃ§o < 2,00 */
 SELECT F.FILME, F.NOME AS NOME_FILME, A.ATOR AS ID_ATOR, A.NOME AS NOME_ATOR
 FROM FILMES F
 JOIN FILMES_ATOR FA ON F.FILME = FA.FILME
@@ -342,30 +342,30 @@ JOIN ATORES A ON FA.ATOR = A.ATOR
 JOIN PRECOS P ON F.PRECO = P.PRECO
 WHERE P.VALOR < 2.00;
 
-/*12. Selecionar codigo e nome dos clientes que locaram filmes do gênero “épico” */
+/*12. Selecionar codigo e nome dos clientes que locaram filmes do gÃªnero Â“Ã©picoÂ” */
 SELECT C.CLIENTE, C.NOME
 FROM CLIENTES C
 JOIN LOCACOES L ON C.CLIENTE = L.CLIENTE
 JOIN ITENS_LOCACAO IL ON L.LOCACAO = IL.LOCACAO
 JOIN FILMES F ON IL.FILME = F.FILME
 JOIN GENEROS G ON F.GENERO = G.GENERO
-WHERE lower(G.DESCRICAO) = 'épico';
+WHERE lower(G.DESCRICAO) = 'Ã©pico';
 
-/* 13. Selecionar código e nome dos atores que trabalharam em filmes cujo código de gênero = 4 */
+/* 13. Selecionar cÃ³digo e nome dos atores que trabalharam em filmes cujo cÃ³digo de gÃªnero = 4 */
 SELECT A.ATOR, A.NOME
 FROM ATORES A
 JOIN FILMES_ATOR FA ON A.ATOR = FA.ATOR
 JOIN FILMES F ON FA.FILME = F.FILME
 WHERE F.GENERO = 4;
 
-/* 14. Selecionar código e nome dos filmes, descrição do gênero, data da compra, dos filmes comprados no ano de
-2021, do gênero “adulto” */
+/* 14. Selecionar cÃ³digo e nome dos filmes, descriÃ§Ã£o do gÃªnero, data da compra, dos filmes comprados no ano de
+2021, do gÃªnero Â“adultoÂ” */
 SELECT F.FILME, F.NOME, G.DESCRICAO, F.DT_COMPRA
 FROM FILMES F
 JOIN GENEROS G ON F.GENERO = G.GENERO
 WHERE lower(G.DESCRICAO) = 'adulto' AND EXTRACT(YEAR FROM F.DT_COMPRA) = 2021;
 
-/* 15. Selecionar o número e a data da locação, das locações feitas pelo cliente “ana terra”, no ano de 2020. */
+/* 15. Selecionar o nÃºmero e a data da locaÃ§Ã£o, das locaÃ§Ãµes feitas pelo cliente Â“ana terraÂ”, no ano de 2020. */
 SELECT L.LOCACAO, L.DT_LOCACAO
 FROM LOCACOES L
 JOIN ITENS_LOCACAO IL ON L.LOCACAO = IL.LOCACAO
@@ -377,8 +377,8 @@ FROM LOCACOES L
 JOIN CLIENTES C ON L.CLIENTE = C.CLIENTE
 WHERE lower(C.NOME) = 'ana terra' AND EXTRACT(YEAR FROM L.DT_LOCACAO) = 2020;
 
-/* 16. Selecionar o número e a data da locação, o código e nome dos filmes, das locações feitas pelo cliente “jorge
-tabajara”, no primeiro semestre de 2020, em ordem de data de locação */
+/* 16. Selecionar o nÃºmero e a data da locaÃ§Ã£o, o cÃ³digo e nome dos filmes, das locaÃ§Ãµes feitas pelo cliente Â“jorge
+tabajaraÂ”, no primeiro semestre de 2020, em ordem de data de locaÃ§Ã£o */
 SELECT L.LOCACAO, L.DT_LOCACAO, F.FILME, F.NOME AS NOME_FILME
 FROM LOCACOES L
 JOIN CLIENTES C ON L.CLIENTE = C.CLIENTE
@@ -389,7 +389,7 @@ AND EXTRACT(YEAR FROM L.DT_LOCACAO) = 2020
 AND EXTRACT(MONTH FROM L.DT_LOCACAO) <= 6
 ORDER BY L.DT_LOCACAO;
 
-/* 17. Selecionar o nome dos clientes e a data de locação, das locações realizadas no mês de setembro de 2020 */
+/* 17. Selecionar o nome dos clientes e a data de locaÃ§Ã£o, das locaÃ§Ãµes realizadas no mÃªs de setembro de 2020 */
 SELECT C.NOME AS NOME_CLIENTE, L.DT_LOCACAO
 FROM LOCACOES L
 JOIN CLIENTES C ON L.CLIENTE = C.CLIENTE
@@ -399,8 +399,8 @@ AND EXTRACT(YEAR FROM L.DT_LOCACAO) = 2020;
 /* 18. Selecionar 
 //codigo e 
 //nome dos filmes, 
-//data de locação, dos filmes locados pelo cliente “Antonio ferreira”, no mês
-de julho de 2020, do gênero “drama” 
+//data de locaÃ§Ã£o, dos filmes locados pelo cliente Â“Antonio ferreiraÂ”, no mÃªs
+de julho de 2020, do gÃªnero Â“dramaÂ” 
 */
 SELECT F.FILME, F.NOME AS NOME_FILME, L.DT_LOCACAO
 FROM FILMES F
@@ -413,23 +413,23 @@ AND EXTRACT(MONTH FROM L.DT_LOCACAO) = 7
 AND EXTRACT(YEAR FROM L.DT_LOCACAO) = 2020
 AND lower(G.DESCRICAO) = 'drama';
 
-/* 19. Selecionar o código do gênero, o código e o nome de todos os filmes deste gênero, ordenados pelo código do
-gênero. */
+/* 19. Selecionar o cÃ³digo do gÃªnero, o cÃ³digo e o nome de todos os filmes deste gÃªnero, ordenados pelo cÃ³digo do
+gÃªnero. */
 SELECT G.GENERO AS CODIGO_GENERO, F.GENERO AS CODIGO_FILME, F.NOME AS NOME_FILME
 FROM GENEROS G
 JOIN FILMES F ON G.GENERO = F.GENERO
 ORDER BY G.GENERO;
 
-/* 20. Selecionar os nomes dos filmes, os códigos e nomes de todos os atores que trabalharam nestes filmes, para os
-filmes de gênero “comédia” */
+/* 20. Selecionar os nomes dos filmes, os cÃ³digos e nomes de todos os atores que trabalharam nestes filmes, para os
+filmes de gÃªnero Â“comÃ©diaÂ” */
 SELECT F.NOME AS NOME_FILME, A.ATOR AS CODIGO_ATOR, A.NOME AS NOME_ATOR
 FROM FILMES F
 JOIN FILMES_ATOR FT ON F.FILME = FT.FILME
 JOIN ATORES A ON FT.ATOR = A.ATOR
 JOIN GENEROS G ON F.GENERO = G.GENERO
-WHERE lower(G.DESCRICAO) = 'comédia';
+WHERE lower(G.DESCRICAO) = 'comÃ©dia';
 
-/*21. Selecionar o nome de todas as cidades onde a locadora tem clientes (não repetir o nome da cidade).  */
+/*21. Selecionar o nome de todas as cidades onde a locadora tem clientes (nÃ£o repetir o nome da cidade).  */
 SELECT DISTINCT CIDADE
 FROM CLIENTES;
 
@@ -438,12 +438,12 @@ SELECT CIDADE, COUNT(*) AS QUANTIDADE_DE_CLIENTES
 FROM CLIENTES
 GROUP BY CIDADE;
 
-/* 23. Selecionar o codigo e nome dos clientes que não realizaram nenhuma locação. */
+/* 23. Selecionar o codigo e nome dos clientes que nÃ£o realizaram nenhuma locaÃ§Ã£o. */
 SELECT CLIENTE, NOME
 FROM CLIENTES
 WHERE CLIENTE NOT IN (SELECT CLIENTE FROM LOCACOES);
 
-/* 24. Selecionar o código e nome dos clientes que já locaram o filme “a espera de um milagre”. */
+/* 24. Selecionar o cÃ³digo e nome dos clientes que jÃ¡ locaram o filme Â“a espera de um milagreÂ”. */
 SELECT C.CLIENTE, C.NOME
 FROM CLIENTES C
 JOIN LOCACOES L ON C.CLIENTE = L.CLIENTE
@@ -470,7 +470,7 @@ WHERE EXTRACT (YEAR FROM DT_COMPRA) = 2020
   FROM ITENS_LOCACAO IL
   JOIN LOCACOES L ON IL.LOCACAO = L.LOCACAO);
 
-/* 27. Obter o número médio de filmes locados em cada locação, no ano de 2021 */
+/* 27. Obter o nÃºmero mÃ©dio de filmes locados em cada locaÃ§Ã£o, no ano de 2021 */
 SELECT AVG(IL.FILME) AS MEDIA_FILMES
 FROM ITENS_LOCACAO IL
 JOIN LOCACOES L ON IL.LOCACAO = L.LOCACAO   
@@ -482,25 +482,25 @@ FROM LOCACOES L
 JOIN ITENS_LOCACAO IL ON IL.LOCACAO = L.LOCACAO 
 WHERE EXTRACT(YEAR FROM L.DT_LOCACAO) = 2020;
 
-/* 29. Selecionar os códigos dos clientes e a quantidade total de locações por ele realizadas. */
+/* 29. Selecionar os cÃ³digos dos clientes e a quantidade total de locaÃ§Ãµes por ele realizadas. */
 SELECT CLIENTE, COUNT(*) AS QTD_DE_LOCACOES
 FROM LOCACOES
 GROUP BY CLIENTE;
 
-/* 30. Selecionar os códigos dos clientes e a quantidade total de filmes já locados por cada um, em ordem
+/* 30. Selecionar os cÃ³digos dos clientes e a quantidade total de filmes jÃ¡ locados por cada um, em ordem
 decrescente. */
 SELECT CLIENTE, COUNT(*) AS QTD_TOTAL_FILMES_LOCADOS
 FROM LOCACOES
 GROUP BY CLIENTE
 ORDER BY QTD_TOTAL_FILMES_LOCADOS DESC;
 
-/* 31. Aumentar o atributo valor em 12,5%, para os filmes cuja categoria seja “selo ouro”. */
+/* 31. Aumentar o atributo valor em 12,5%, para os filmes cuja categoria seja Â“selo ouroÂ”. */
 UPDATE PRECOS
 SET VALOR = VALOR * 1.125
 WHERE CATEGORIA IN (SELECT CATEGORIA FROM CATEGORIAS WHERE DESCRICAO = 'selo ouro');
 
-/* 32. Selecionar código e nome dos filmes, descrição do gênero, valor e como ficariam se fosse aplicado um aumento
-de 20%, com o cabeçalho (rótulo da coluna) “Com Aumento de 20% */
+/* 32. Selecionar cÃ³digo e nome dos filmes, descriÃ§Ã£o do gÃªnero, valor e como ficariam se fosse aplicado um aumento
+de 20%, com o cabeÃ§alho (rÃ³tulo da coluna) Â“Com Aumento de 20% */
 SELECT F.FILME AS COD_FILME, F.NOME, G.DESCRICAO AS GENERO, P.VALOR, (P.VALOR * 1.2) AS VALOR_COM_AUMENTO
 FROM FILMES F
 JOIN PRECOS P ON F.PRECO = P.PRECO
