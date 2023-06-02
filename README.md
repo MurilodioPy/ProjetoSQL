@@ -1,23 +1,26 @@
 # ProjetoSQL
-Trabalho para treino da linguagem SQL
-    2. Criar uma restrição para o atributo VALOR da tabela PRECOS (mínimo = 2,50).
+## Trabalho para treino da linguagem SQL
+
+
+2. Criar uma restrição para o atributo VALOR da tabela PRECOS (mínimo = 2,50).
 R: ALTER TABLE Precos
 ADD CONSTRAINT preco_minimo CHECK (valor >= 2.50);
 
-    3. Criar uma restrição para o atributo DT_COMPRA da tabela FILMES (mínimo = 10 de janeiro de 2020).
+3. Criar uma restrição para o atributo DT_COMPRA da tabela FILMES (mínimo = 10 de janeiro de 2020).
 R: ALTER TABLE Filmes
 ADD CONSTRAINT chk_dt_compra
 CHECK (Dt_Compra >= '2020-01-10');
 
-    4. Criar uma restrição para o atributo DT_LOCACAO da tabela LOCACOES (mínimo = 1º de março de 2020).
+4. Criar uma restrição para o atributo DT_LOCACAO da tabela LOCACOES (mínimo = 1º de março de 2020).
 R:
 ALTER TABLE LOCACOES
 ADD CONSTRAINT locacoes_dt_locacao_min
 CHECK (DT_LOCACAO >= TO_DATE('2020-03-01', 'YYYY-MM-DD'));
-    5. Remover todas as restrições criadas acima
+
+5. Remover todas as restrições criadas acima
 R: ALTER TABLE Precos DROP CONSTRAINT precos_valor_minimo;
 
-    6. Selecionar código e nome dos filmes cuja descrição do gênero seja “ação”
+6. Selecionar código e nome dos filmes cuja descrição do gênero seja “ação”
 R: SELECT f.filme, f.nome
 FROM Filmes f
 INNER JOIN Genero g ON f.genero = g.genero
